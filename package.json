@@ -10,10 +10,13 @@
   "author": "Jess2",
   "license": "ISC",
   "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "antd": "^4.12.3",
     "next": "^10.0.6",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "eslint": "^7.19.0",
