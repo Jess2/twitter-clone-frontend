@@ -9,16 +9,14 @@ const Profile = () => {
   const followingList = [{ nickname: '헨리' }, { nickname: '로라' }];
 
   return (
-    <>
+    <AppLayout>
       <Head>
         <title>내 프로필 | NodeBird</title>
       </Head>
-      <AppLayout>
-        <NicknameEditForm />
-        <FollowList header="팔로워 목록" data={followerList} />
-        <FollowList header="팔로잉 목록" data={followingList} />
-      </AppLayout>
-    </>
+      <NicknameEditForm />
+      <FollowList header="팔로워 목록" data={followerList} />
+      <FollowList header="팔로잉 목록" data={followingList} />
+    </AppLayout>
   );
 }
 
